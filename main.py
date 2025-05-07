@@ -330,7 +330,7 @@ class ReflectionAgent:
 
     def __init__(self, model: str = "llama-3.3-70b-versatile"):
         # Initialize with API key
-        self.api_key = "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"
+        self.api_key = "Replace with oyur api"
         if not self.api_key:
             raise ValueError("API key is not set.")
         
